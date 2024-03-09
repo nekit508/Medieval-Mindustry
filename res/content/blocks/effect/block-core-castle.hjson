@@ -1,9 +1,8 @@
-type: CoreBlock
+type: mdvlm.type.world.blocks.storage.CastleBlock
 health: 5000
 itemCapacity: 5000
 size: 9
 unitCapModifier: 8
-unitType: unit-core
 requirements: [
 	item-wood/5000
 ] 
@@ -20,3 +19,4 @@ breakSound: block-destroy
 destroySound: block-destroy
 thrusterLength: 0
 squareSprite: false
+buildRadius: 160

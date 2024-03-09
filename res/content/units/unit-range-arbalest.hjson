@@ -14,7 +14,7 @@ deathSound: sound-death2
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
-	region: mm-blood
+	region: mdvlm-blood
 	sizeFrom: 1
 	sizeTo: 10
 	lifetime: 3600
@@ -92,8 +92,8 @@ weapons: [
 		]
 		bullet: {
 			type: BasicBulletType
-			sprite: mm-arrow-front
-			backSprite: mm-arrow-back
+			sprite: mdvlm-arrow-front
+			backSprite: mdvlm-arrow-back
 			frontColor: b0bac0
 			backColor: 90776a
 			shootEffect: none

@@ -1,0 +1,12 @@
+{
+    "main": "mdvlm.core.MdvlmMod",
+    "name": "mdvlm",
+    "displayName": "Medieval Mindustry",
+    "author": "Fitz, nekit508",
+    "repo": "nekit508/Medieval-Mindustry",
+    "description": "Another total conversion PVP mod",
+    "version": "2.0.0",
+    "minGameVersion": 146,
+    "java": true,
+    "hideBrowser": true
+}

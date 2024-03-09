@@ -1,20 +1,21 @@
 type: mech
-speed: 0.6
+speed: 0.3
 hitSize: 4
-health: 125
-range: 16
-maxRange: 16
+health: 170
+range: 32
+armor: 25
+maxRange: 32
 targetAir: false
 createScorch: false
 commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-deathSound: sound-death3
+deathSound: sound-death1
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
-	region: mm-blood
+	region: mdvlm-blood
 	sizeFrom: 1
 	sizeTo: 10
 	lifetime: 3600
@@ -35,35 +36,50 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-defence-shieldbearer-weapon
+		name: unit-defence-legionary-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 108
+		reload: 180
 		recoil: 0
 		shootX: 0
-		shootY: 8
+		shootY: 16
 		x: 0
 		y: 0
 		layerOffset: -0.01
 		shootSound: sound-swish
+		parts: [
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: recoil
+			x: 1.8
+			y: 0
+			moveRot: 15
+			moveY: 1.2
+			moveX: -1.2
+			mirror: false
+			outline: false
+			}
+		]
 		bullet: {
 			type: BasicBulletType
 			shootEffect: none
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 40
+			damage: 30
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 40
+			splashDamage: 30
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true
 			width: 0
 			height: 0
-			range: 16
-			maxRange: 16
+			range: 32
+			maxRange: 32
+			pierce: true
 			hitEffect: {
 				type: ExplosionEffect
 				lifetime: 15
@@ -101,22 +117,8 @@ weapons: [
 	]
 abilities: [
 		{
-		type: ShieldArcAbility
-		//region: mm-unit-defence-shieldbearer-shield
-		radius: 8
-		regen: 0.25
-		max: 150
-		cooldown: 180
-		angle: 85
-		x: 0
-		y: 0
-		whenShooting: false
-		width: 2
-		drawArc: false
-		}
-		{
 		type: SpawnDeathAbility
-		unit: unit-defence-shieldbearer-corpse
+		unit: unit-defence-legionary-corpse
 		spread: 4
 		}
 	]

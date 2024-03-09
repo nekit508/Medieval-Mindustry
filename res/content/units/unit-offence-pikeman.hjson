@@ -14,7 +14,7 @@ deathSound: sound-death3
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
-	region: mm-blood
+	region: mdvlm-blood
 	sizeFrom: 1
 	sizeTo: 10
 	lifetime: 3600

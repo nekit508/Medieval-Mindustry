@@ -13,8 +13,8 @@ hasPower: false
 buildCostMultiplier: 6
 squareSprite: false
 requirements: [
-	mm-item-wood/200
-	mm-item-iron/50
+	mdvlm-item-wood/200
+	mdvlm-item-iron/50
 ] 
 placeSound: block-place
 breakSound: block-destroy
@@ -29,38 +29,38 @@ ambientSoundVolume: 0.05
 recipes: 
 [
 {
-input: {items: [mm-item-wood/3, mm-item-iron/5]}
-output: mm-item-hammer
+input: {items: [mdvlm-item-wood/3, mdvlm-item-iron/5]}
+output: mdvlm-item-hammer
 craftTime: 600
 },
 {
-input: {items: [mm-item-wood/1, mm-item-iron/3]}
-output: mm-item-sword
+input: {items: [mdvlm-item-wood/1, mdvlm-item-iron/3]}
+output: mdvlm-item-sword
 craftTime: 180
 },
 {
-input: {items: [mm-item-wood/3, mm-item-iron/3]}
-output: mm-item-halberd
+input: {items: [mdvlm-item-wood/3, mdvlm-item-iron/3]}
+output: mdvlm-item-halberd
 craftTime: 300
 },
 {
-input: {items: [mm-item-wood/3, mm-item-iron/1]}
-output: mm-item-spear
+input: {items: [mdvlm-item-wood/3, mdvlm-item-iron/1]}
+output: mdvlm-item-spear
 craftTime: 180
 },
 {
-input: {items: [mm-item-wood/3, mm-item-iron/5]}
-output: mm-item-shield
+input: {items: [mdvlm-item-wood/3, mdvlm-item-iron/5]}
+output: mdvlm-item-shield
 craftTime: 300
 },
 {
-input: mm-item-wood/5
-output: mm-item-bow
+input: mdvlm-item-wood/5
+output: mdvlm-item-bow
 craftTime: 180
 },
 {
-input: {items: [mm-item-wood/4, mm-item-iron/4]}
-output: mm-item-crossbow
+input: {items: [mdvlm-item-wood/4, mdvlm-item-iron/4]}
+output: mdvlm-item-crossbow
 craftTime: 300
 }
 ]

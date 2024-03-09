@@ -14,7 +14,7 @@ deathSound: sound-death1
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
-	region: mm-blood
+	region: mdvlm-blood
 	sizeFrom: 1
 	sizeTo: 10
 	lifetime: 3600
@@ -51,8 +51,8 @@ weapons: [
 		shootStatusDuration: 60
 		bullet: {
 			type: ArtilleryBulletType
-			sprite: mm-arrow-front
-			backSprite: mm-arrow-back
+			sprite: mdvlm-arrow-front
+			backSprite: mdvlm-arrow-back
 			frontColor: b0bac0
 			backColor: 90776a
 			shootEffect: none
@@ -99,7 +99,7 @@ weapons: [
 abilities: [
 		{
 		type: StatusFieldAbility
-		effect: mm-status-roll
+		effect: mdvlm-status-roll
 		duration: 120
 		reload: 420
 		range: 0

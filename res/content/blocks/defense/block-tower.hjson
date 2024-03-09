@@ -23,8 +23,8 @@ shootY: 4
 	]
 	shootType: {
 			type: ArtilleryBulletType
-			sprite: mm-arrow-front
-			backSprite: mm-arrow-back
+			sprite: mdvlm-arrow-front
+			backSprite: mdvlm-arrow-back
 			frontColor: b0bac0
 			backColor: 90776a
 			shootEffect: none
